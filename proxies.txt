@@ -1,0 +1,15 @@
+# Add your proxies below (one per line)
+#
+# Supported formats:
+# http://host:port
+# http://user:pass@host:port
+# https://host:port
+# https://user:pass@host:port
+# socks5://host:port
+# socks5://user:pass@host:port
+# socks4://host:port
+#
+# Examples:
+# http://192.168.1.100:8080
+# http://myuser:mypass@proxy.example.com:3128
+# socks5://user:pass@127.0.0.1:1080

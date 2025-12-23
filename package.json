@@ -1,0 +1,32 @@
+{
+  "name": "humanoid-bot",
+  "version": "1.0.0",
+  "description": "Humanoid Network Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "clear-log": "node index.js --clear-log",
+    "clear-data": "node index.js --clear-data",
+    "check-log": "node index.js --check-log",
+    "check-config": "node index.js --check-config"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0",
+    "figlet": "^1.9.4",
+    "https-proxy-agent": "^7.0.2",
+    "node-fetch": "^3.3.2",
+    "socks-proxy-agent": "^8.0.2",
+    "user-agents": "^1.1.394"
+  },
+  "keywords": [
+    "humanoid",
+    "bot",
+    "airdrop",
+    "ethers",
+    "evm"
+  ],
+  "author": "itsnodrops",
+  "license": "MIT"
+}
