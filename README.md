@@ -9,12 +9,13 @@ Automated bot for interacting with Humanoid Network Pre-launch Campaign with sup
 
 ## ✨ Features
 
+- 🛡️ **Bypass Vercel Challenge** - Automatically handles and solves Vercel protection/CAPTCHA
 - 🔐 **Wallet Authentication** - Connect wallet and manage sessions automatically
 - 🔑 **Token Caching** - Skip login when cached access token is still valid
 - 🤖 **Auto Training** - Submit models and datasets from HuggingFace
 - ✅ **Task Completion** - Auto-complete social tasks for bonus points
-- � **Auto X Username** - Set X (Twitter) username for new accounts (configured or random)
-- �👥 **Multi-Account** - Process multiple accounts concurrently
+- 🐦 **Auto X Username** - Set X (Twitter) username for new accounts (configured or random)
+- 👥 **Multi-Account** - Process multiple accounts concurrently
 - 🚀 **Pool-Based Concurrency** - Proxies immediately reassigned when idle for max efficiency
 - 🔄 **Proxy Support** - HTTP, HTTPS, SOCKS4, and SOCKS5 proxies with rotation
 - 📊 **TUI Dashboard** - Real-time monitoring of all account activities
@@ -170,5 +171,5 @@ This tool is for educational and testing purposes only on the [Humanoid Network 
 
 ## 📄 License
 
-This project is licensed under the [MIT © 2025](https://github.com/itsnodrops/humanoid-bot/blob/main/LICENSE).
+This project is licensed under the [MIT © 2026](https://github.com/itsnodrops/humanoid-bot/blob/main/LICENSE).
 
