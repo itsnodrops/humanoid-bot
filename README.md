@@ -9,7 +9,7 @@ Automated bot for interacting with Humanoid Network Pre-launch Campaign with sup
 
 ## ✨ Features
 
-- 🛡️ **Bypass Vercel Challenge** - Automatically handles and solves Vercel protection/CAPTCHA
+- 🛡️ **Bypass Vercel Challenge** - Automatically handles and solves Vercel protection
 - 🔐 **Wallet Authentication** - Connect wallet and manage sessions automatically
 - 🔑 **Token Caching** - Skip login when cached access token is still valid
 - 🤖 **Auto Training** - Submit models and datasets from HuggingFace
