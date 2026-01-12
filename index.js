@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const PATHS = {
     log: path.join(__dirname, 'logs', 'process.log'),
-    tokens: path.join(__dirname, 'src', 'core', 'data', 'tokens.json'),
+    tokens: path.join(__dirname, 'src', 'core', 'data', 'data.json'),
     env: path.join(__dirname, '.env'),
     proxies: path.join(__dirname, 'proxies.txt'),
     config: path.join(__dirname, 'config.js')
@@ -24,9 +24,9 @@ async function clearLog() {
 async function clearData() {
     if (fs.existsSync(PATHS.tokens)) {
         fs.unlinkSync(PATHS.tokens);
-        console.log('✓ Token cache cleared');
+        console.log('✓ Data cache cleared');
     } else {
-        console.log('Token cache does not exist');
+        console.log('Data cache does not exist');
     }
 }
 
@@ -103,12 +103,12 @@ async function checkConfig() {
         try {
             const tokens = JSON.parse(fs.readFileSync(PATHS.tokens, 'utf-8'));
             const count = Object.keys(tokens).length;
-            console.log(`✓ Token cache found with ${count} cached token(s)`);
+            console.log(`✓ Data cache found with ${count} cached token(s)`);
         } catch {
-            console.log('✗ Token cache is corrupted');
+            console.log('✗ Data cache is corrupted');
         }
     } else {
-        console.log('○ Token cache not found (will be created on first run)');
+        console.log('○ Data cache not found (will be created on first run)');
     }
 
     console.log('');
