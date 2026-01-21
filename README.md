@@ -16,8 +16,8 @@ Automated bot for interacting with Humanoid Network Pre-launch Campaign with sup
 - ✅ **Task Completion** - Auto-complete social tasks for bonus points
 - 🐦 **Auto X Username** - Set X (Twitter) username for new accounts (configured or random)
 - 👥 **Multi-Account** - Process multiple accounts concurrently
-- 🚀 **Pool-Based Concurrency** - Proxies immediately reassigned when idle for max efficiency
 - 🔄 **Proxy Support** - HTTP, HTTPS, SOCKS4, and SOCKS5 proxies with rotation
+- 🚀 **Pool-Based Concurrency** -Proxies immediately reassigned when idle for max efficiency
 - 📊 **TUI Dashboard** - Real-time monitoring of all account activities
 - ⏱️ **Smart Delays** - Random delays between accounts to avoid rate limiting
 - 🔁 **Loop Mode** - Schedule automatic reruns at specified times
